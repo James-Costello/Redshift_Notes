@@ -1,1 +1,34 @@
-notes.txt
+REDSHIFT
+
+
+/////////
+///OTLP VS OLAP
+/////////
+
+Columnar Storage
+In an analytics database....
+we're only interested in a subset of columns
+row -oriented is therefore much slower
+just use columnar storage with an id pointer
+
+The compression is much better, 1 byte pointers, so 7 less bytes
+less network traffic,
+less disc I/O,
+
+STAR SCHEMA
+
+Fact table -- Dimension
+
+Prematerializing data?
+
+Data cubes!
+
+BENEFITS OF A PUBLIC EDW
+-Costs
+-"Infinite Scale"
+-Workload customizability
+-Managed service benefits
+
+//////////
+///
+//////////
