@@ -29,6 +29,19 @@ BENEFITS OF A PUBLIC EDW
 -Workload customizability
 -Managed service benefits
 
+BENEFITS OF REDSHIFT
+
+Speed (Zone Maps)
+-Leader node
+-file blocks peppered throughout
+-skips blocks that dont contain relavent data
+
+-Accessibility
+-Fault Tolerance
+-Backups (incremental)
+-Resizing (new cluster provisioned, only charged for one cluster)
+-Security (Use VPC)
+
 //////////
 ///
 //////////
